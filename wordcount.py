@@ -39,7 +39,7 @@ def word_count(filename):
             #print(count[word])
 
     for count, word in count.items():       
-        print("{} {}".format(word, count))
+        print("{} {}".format(count, word))
 
     #f = open("test.txt")
     #print(f)
